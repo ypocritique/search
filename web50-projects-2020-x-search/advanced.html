@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="google.css">
+		<title>Advanced Search</title>
+
+		<style>
+			label{
+				margin-left: 20px;
+				display: inline-block;
+  				width: 150px;
+  				}
+			input{
+					  width: 600px;
+					  margin: 10px;
+				}
+			.gh{
+				height: 80px;
+				background-color:black;
+			}
+			 img{
+				float: left;
+				width: 100px;
+			}
+		</style>	
+	</head>
+	
+
+    <body>
+		
+		<header class="gh">
+			<a href="index.html"><img src="google-min.png"  alt="Google" style="margin-left: 10px;"></a></span>
+			<div class="g-header">
+				<i class="fa fa-th"></i>
+				<i class="fa fa-bell"></i>
+				<a href="image.html" style="margin:80px; color: white;">Images </a>
+			</div>
+		</header><br>
+		
+		<div>
+			<h2 style="color: #d93025;font-family: sans-serif;
+		margin-left: 30px; margin-top: 70px;">Advanced Search</h2>
+		</div>
+		<hr><br><br>
+		
+		<div>
+			<span style="margin-left: 18px; font-size: 20px;"> Find pages with...</span>
+			<span style="margin-left: 615px; color:#777;"><b>To do this in the search box.</b></span>
+		</div>
+		
+		<form action="https://google.com/search">
+			<div>
+				<label>all these words:</label>
+				<input type="text" name="as_q">
+				<div style=" padding: 5px; display: inline; font-size:13px;">Type the important words: 
+					tri-colour rat terrier</div>
+			</div>
+			
+			<div>
+				<label>this exact word or phrase:</label>
+				<input type="text" name="as_epq">
+				<div style=" padding: 5px; display: inline; font-size:13px;">Put exact words in quotes: "rat terrier"</div>
+			</div>
+			
+			<div>
+				<label>any of these words:</label>
+				<input type="text" name="as_oq">
+				<div style=" padding: 5px; display: inline; font-size:13px;">Type OR between all the words you want: 
+					miniature OR standard</div>
+			</div>
+			
+			<div>
+				<label>none of these words:</label>
+				<input type="text" name="as_eq">
+				<div style=" padding: 5px; display: inline; font-size:13px;">Put a minus sign just before words that 
+					you don't want: -rodent, -"Jack Russell"</div>
+			</div>
+			
+			<div>
+				<input style="border-radius: 8px; border: 2px solid #4285F4; background-color: #4285F4; 
+				color: white; margin-left: 630px; width:160px; margin-top:10px;" type="submit" value="Advanced  Search">
+			</div>
+		</form>
+	
+	</body>
+</html>

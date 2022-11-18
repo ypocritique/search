@@ -1,0 +1,122 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.g-header{
+    float: right;
+    width: 300px;
+    margin: 20px;
+    margin-top: 40px;
+
+}
+.g-header .fa-th{
+    font-size:x-large;
+    color: gray;
+    float: right;
+    margin-right: 15px;
+    cursor: pointer;
+
+}
+.g-header .fa-th:hover{
+    color: #000;
+}
+.g-header .fa-bell{
+    width: 25px;
+    height: 25px;
+    font-size:10px;
+    text-align: center;
+    color: #fff;
+    background-color: #737373;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+    padding-top: 8px;
+    float: right;
+}
+
+.g-header .fa-bell:hover{
+    background-color: #000;
+}
+
+.g-header a{
+    margin-right: 20px;
+    color: #333;
+    font-size: 14px;
+}
+
+.g-header a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.g-logo{
+    text-align: center; 
+    left: 50%; 
+    top: 33%; 
+    position: absolute; 
+    transform: translateX(-50%) translateY(-50%);
+    width: 420px;
+}
+
+   
+.g-form{
+    text-align: center; 
+    size: .8rem; 
+    left: 50%; 
+    top: 50%; 
+    position: absolute; 
+    transform: translateX(-50%) translateY(-50%);
+}
+.g-search{
+    border-radius: 25px; 
+    border: 1px solid gray;
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 20px; 
+    width: 600px; 
+    height: 5px;
+}
+
+form {
+  margin:auto;
+  padding-left:10;
+}
+
+input {
+  outline: none
+}
+
+input[type='text']:focus,
+input[type='text']:active{
+  border-color: transparent;
+  border-bottom: 2px solid red
+}
+
+.button{
+    
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+
+#search-icon{
+    position: relative;
+    left: 29px;
+    margin:5px ;
+    color: #c9c5c5;
+    cursor:pointer;
+    width: 0;
+}
+#search-mic{
+    position: relative;
+    right: -590px;
+    cursor: pointer;
+    color: #3c4de7;
+}
